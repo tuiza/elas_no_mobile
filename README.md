@@ -1,50 +1,175 @@
-# Welcome to your Expo app 👋
+# 👩‍💻 Elas na Tecnologia - React Native com Expo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bem-vinda ao projeto 💜
 
-## Get started
+Esse repositório foi criado para ajudar meninas que estão começando no desenvolvimento mobile com **React Native + Expo**.
 
-1. Install dependencies
+Aqui você vai aprender os fundamentos do React Native de forma prática, criando interfaces reais e entendendo como funciona um aplicativo por dentro.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+# ✨ O que você vai aprender
 
-   ```bash
-   npx expo start
-   ```
+Durante as aulas você vai aprender:
 
-In the output, you'll find options to open the app in a
+- Componentes no React Native
+- `View`, `Text`, `Image` e `Button`
+- Estilização com `StyleSheet`
+- Organização de projeto
+- Navegação entre telas
+- Estrutura de aplicativos mobile
+- Boas práticas no React Native
+- Como rodar apps Android, iOS e Web
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+# 📚 Organização das aulas
 
-## Get a fresh project
+O código de cada aula ficará separado em uma **branch específica**.
 
-When you're ready, run:
+Exemplo:
 
 ```bash
-npm run reset-project
+aula-01
+aula-02
+aula-03
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Assim você consegue:
 
-## Learn more
+- acompanhar a evolução do projeto
+- voltar em aulas anteriores
+- comparar mudanças no código
+- estudar cada etapa separadamente
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+# 🌱 Como trocar de branch
 
-## Join the community
+Para acessar o código de uma aula específica:
 
-Join our community of developers creating universal apps.
+```bash
+git checkout nome-da-branch
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Exemplo:
+
+```bash
+git checkout aula-01
+```
+
+Para ver todas as branches disponíveis:
+
+```bash
+git branch -a
+```
+
+---
+
+# 🚀 Como iniciar o projeto
+
+## 1. Instale as dependências
+
+Se estiver usando npm:
+
+```bash
+npm install
+```
+
+Ou se estiver usando Yarn:
+
+```bash
+yarn
+```
+
+---
+
+## 2. Inicie o projeto
+
+```bash
+npx expo start
+```
+
+---
+
+# 📱 Como abrir o aplicativo
+
+Depois de iniciar o projeto, você poderá abrir no:
+
+- Android Emulator
+- iOS Simulator
+- Expo Go
+- Navegador Web
+
+---
+
+# 📦 Tecnologias usadas
+
+- React Native
+- Expo
+- JavaScript
+- TypeScript
+- Expo Router
+
+---
+
+# 🛠️ Estrutura do projeto
+
+```bash
+app/
+assets/
+components/
+```
+
+A pasta `app` contém as telas do aplicativo.
+
+---
+
+# 💡 Dicas importantes
+
+## Sempre rode o projeto após mudanças
+
+```bash
+npx expo start
+```
+
+---
+
+## Se algo der erro
+
+Tente limpar o cache:
+
+```bash
+npx expo start --clear
+```
+
+---
+
+# 🎯 Objetivo do projeto
+
+O objetivo desse projeto é mostrar que:
+
+> tecnologia também é lugar de mulher 💜
+
+Você não precisa saber tudo para começar.  
+Cada aula vai te ajudar a evoluir um passo de cada vez.
+
+---
+
+# 📖 Documentações úteis
+
+- https://docs.expo.dev
+- https://reactnative.dev
+- https://docs.expo.dev/router/introduction/
+- https://react.dev
+
+---
+
+# 🤝 Comunidade
+
+- 
+- https://chat.expo.dev
+
+---
+
+Feito com 💜 por Tuiza
